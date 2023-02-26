@@ -1,0 +1,45 @@
+.slider {
+    position: absolute;
+    z-index: 2;
+    width: 1452px;
+    height: 480px;
+    right: -146px;
+}
+
+.button_container {
+    position: relative;
+}
+
+.prev {
+    position: absolute;
+    z-index: 3;
+    top: 254px;
+    right: 11px;
+    height: 47px;
+    width: 85px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));
+
+}
+
+.prev img {
+    width: 46px;
+}
+
+.next {
+    position: absolute;
+    z-index: 3;
+    top: -198px;
+    left: 0px;
+    height: 47px;
+    width: 85px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));
+}
+
+.next img {
+    transform: rotate(-180deg);
+    width: 46px;
+}

@@ -1,14 +1,15 @@
 import React from "react";
 import styles from './Stock.module.css'
-import Card from "../Card/Card";
+import Carousel from "../Slider/Slider";
+
 
 
 const Stock = () => {
     return (
-        <section>
+        <section className={styles.stock}>
             <h2>Успей купить!</h2>
             <h3>Акции</h3>
-            <Card />
+            <Carousel />
         </section>
     )
 }

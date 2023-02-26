@@ -1,0 +1,21 @@
+.stock {
+    position: relative;
+    margin-bottom: 650px;
+}
+
+.stock h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.stock h3 {
+    margin-left: 260px;
+    margin-bottom: 60px;
+    font-family: "Bad Script", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #514A7E;
+
+}
