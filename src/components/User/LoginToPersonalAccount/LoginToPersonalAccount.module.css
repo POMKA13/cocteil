@@ -1,0 +1,108 @@
+.loginForm {
+    position: absolute;
+    width: 901px;
+    height: 463px;
+    background-color: #ffffff;
+    right: 34px;
+    box-shadow: -3px 2px 20px #7D7D7D;
+    padding-left: 113px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.login {
+    display: flex;
+}
+
+.form {
+    padding-top: 137px;
+
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 34.92px;
+    color: #121212;
+    margin-bottom: 60px;
+}
+
+.email {
+    width: 372px;
+    border-bottom: 1px solid #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: #7D7D7D;
+    margin-bottom: 31px;
+}
+
+.password {
+    width: 372px;
+    border-bottom: 1px solid #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.88px;
+    margin-bottom: 26px;
+}
+
+.remind {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: #514A7E;
+}
+
+.to_come_in {
+    padding: 14px 15px 14px 25px;
+    margin-top: 25px;
+    background-color: #514A7E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFDF5;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));
+}
+
+.registration {
+    padding: 14px 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    background-color: #ffffff;
+    border: 1px solid #514A7E;
+    margin-left: 46px;
+    margin-bottom: 84px;
+}
+
+.container {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 85px;
+    left: 200px;
+    width: 47px;
+    height: 47px;
+    padding: 18px 17px;
+    border-radius: 50%;
+    background-color: #514A7E;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));
+}
+
+.circle {
+    position: absolute;
+    top: 253px;
+    left: 173px;
+    width: 429px;
+    height: 429px;
+    border: 1px solid #514A7E;
+    border-radius: 50%;
+}

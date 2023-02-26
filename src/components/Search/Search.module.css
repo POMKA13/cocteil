@@ -1,0 +1,16 @@
+.search {}
+
+.search {}
+
+.search input {
+    width: 380px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #7D7D7D;
+    border-bottom: 0.5px solid #7D7D7D;
+    margin-left: 19px;
+    margin-right: 24px;
+}

@@ -1,0 +1,71 @@
+.menu {
+    position: absolute;
+    z-index: 2;
+    width: 278px;
+    height: 500px;
+    background-color: #121212;
+    position: absolute;
+    top: 45px;
+    transition: 500ms;
+}
+
+.buttonOpen {
+    background-color: #FFFDF5;
+    position: relative;;
+}
+
+.buttonOpen span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #121212;
+    margin-bottom: 8px;
+    border-radius: 1px;
+
+}
+
+.buttonClose {
+    position: relative;
+    top: 23px;
+    right: -114px;
+    width: 25px;
+    height: 25px;
+    background-color: #121212;
+}
+
+.buttonClose span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    border-radius: 1px;
+}
+
+.buttonOpen span:last-of-type {
+    margin-bottom: 0px;
+}
+
+.close1 {
+    transform: rotate(-45deg);
+}
+
+.close2 {
+    transform: rotate(45deg);
+    position: relative;
+    top: -10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    margin-top: 20px;
+    color: #FFFDF5;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-left: 18px;
+}
