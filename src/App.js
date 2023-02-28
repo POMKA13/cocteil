@@ -6,6 +6,8 @@ import Greetings from "./components/Greetings/Greetings";
 import Why from "./components/Why/Why";
 import {Routes} from "react-router-dom";
 import Stock from "./components/Stock/Stock";
+import Reviews from "./components/Reviews/Reviews";
+import ReviewForm from "./components/Reviews/ReviewForm/ReviewForm";
 
 function App() {
     return (
@@ -24,6 +26,8 @@ function App() {
                         <Why/>
                         <div className='circle'></div>
                         <Stock />
+                        <Reviews />
+                        <ReviewForm />
                     </main>
             </div>
         </div>

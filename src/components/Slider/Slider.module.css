@@ -1,9 +1,13 @@
 .slider {
-    position: absolute;
-    z-index: 2;
+    /*position: absolute;*/
+    /*z-index: 2;*/
     width: 1452px;
     height: 480px;
-    right: -146px;
+    /*right: -146px;*/
+}
+
+.card {
+    margin-right: 80px;
 }
 
 .button_container {
@@ -14,7 +18,7 @@
     position: absolute;
     z-index: 3;
     top: 254px;
-    right: 11px;
+    right: 146px;
     height: 47px;
     width: 85px;
     background-color: #ffffff;

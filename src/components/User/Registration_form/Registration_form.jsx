@@ -10,6 +10,7 @@ const Registration_form = () => {
     const handleClick = () => {
         setShowLoginToPersonalAccount(true)
     }
+
     return (
         <>
             <div className={styles.registration_form}>

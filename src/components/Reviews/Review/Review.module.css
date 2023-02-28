@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    width: 459px;
+    height: 204px;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    background-color: #FFFDF5;
+}
+
+.image {
+    margin-right: 49px;
+}
+
+.content img {
+    margin: 52px 47px 57px 24px;
+}
+
+.star {
+    margin-bottom: 14px;
+}
+
+.review {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7D7D7D;
+    margin-bottom: 12px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #514A7E;
+    margin-right: 40px;
+}

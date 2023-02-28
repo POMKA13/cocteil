@@ -32,22 +32,22 @@ const Carousel = () => {
                 </button>
             </div>
             <Slider ref={sliderRef} {...settings}>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
-                <div>
+                <div className={styles.card}>
                     <Card />
                 </div>
             </Slider>
