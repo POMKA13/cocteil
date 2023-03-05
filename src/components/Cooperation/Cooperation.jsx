@@ -7,7 +7,7 @@ import coin from '../../image/coin-bag-line.png'
 
 const Cooperation = () => {
     return (
-        <section>
+        <section className={styles.cooperation}>
             <h2 className={styles.title}>Сотрудничество с нами</h2>
             <p className={styles.text}>Наша компания постоянно растёт и расширяет рынок, поэтому мы заинтересованы в новых
                 партнёрах и рассматриваем новые проекты, которые могут быть привлекательны и

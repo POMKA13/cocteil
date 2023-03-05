@@ -9,6 +9,7 @@ import Reviews from "./components/Reviews/Reviews";
 import Question from "./components/Questions/Question";
 import Cooperation from "./components/Cooperation/Cooperation";
 import InvitationToCooperation from "./components/InvitationToCooperation/InvitationToCooperation";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -32,6 +33,11 @@ function App() {
                         <InvitationToCooperation />
                     </main>
             </div>
+            <footer>
+                <div className='wrapper'>
+                    <Footer />
+                </div>
+            </footer>
         </div>
     );
 }
