@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import styles from './Registration_form.module.css'
 import close from '../../../image/Vector.png'
 import LoginToPersonalAccount from "../LoginToPersonalAccount/LoginToPersonalAccount";
+import Radio from "../../Radio/Radio";
 
 const Registration_form = (props) => {
 
@@ -24,10 +25,7 @@ const Registration_form = (props) => {
                                 <br/>
                                 <input className={styles.input} type='text' placeholder='Индекс'/>
                                 <br/>
-                                <label>
-                                    <input type='radio'/>
-                                    <span className={styles.radio_button}></span>
-                                </label>
+                                <Radio />
                                 <span className={styles.data}>Даю согласие на обработку персональных данных</span>
                             </div>
                             <div className={styles.form_rigth}>
