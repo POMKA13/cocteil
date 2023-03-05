@@ -26,7 +26,7 @@ const Registration_form = (props) => {
                                 <input className={styles.input} type='text' placeholder='Индекс'/>
                                 <br/>
                                 <Radio />
-                                <span className={styles.data}>Даю согласие на обработку персональных данных</span>
+
                             </div>
                             <div className={styles.form_rigth}>
                                 <input className={styles.input} type='text' placeholder='Ваш полный адрес'/>

@@ -8,6 +8,7 @@ import Stock from "./components/Stock/Stock";
 import Reviews from "./components/Reviews/Reviews";
 import Question from "./components/Questions/Question";
 import Cooperation from "./components/Cooperation/Cooperation";
+import InvitationToCooperation from "./components/InvitationToCooperation/InvitationToCooperation";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                         <Reviews />
                         <Question />
                         <Cooperation />
+                        <InvitationToCooperation />
                     </main>
             </div>
         </div>
