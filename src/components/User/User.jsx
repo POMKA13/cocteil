@@ -7,16 +7,16 @@ import LoginToPersonalAccount from "./LoginToPersonalAccount/LoginToPersonalAcco
 
 const User = () => {
     const [showLoginForm, setShowLoginForm] = useState(false)
-    const handleClick = () => {
-        setShowLoginForm(true)
-    }
+    const handleClickOpen = () => setShowLoginForm(true)
+
+    const handleClickClose = () => setShowLoginForm(false)
     return (
         <div className={styles.container}>
-            <button className={styles.button} type='button' onClick={handleClick}><img src={user}/></button>
+            <button className={styles.button} type='button' onClick={handleClickOpen}><img src={user}/></button>
             <button className={styles.button} type='button'><img src={heart}/></button>
             <button className={styles.button} type='button'><img src={shopping}/></button>
             {showLoginForm && (
-                <LoginToPersonalAccount />
+                <LoginToPersonalAccount handleClickClose={handleClickClose}/>
             )}
         </div>
     )

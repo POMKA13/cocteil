@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 0.5px solid #7D7D7D;
+    padding-top: 22px;
+    padding-bottom: 17px;
+}
+
+.title::after {
+    display: block;
+    content: '+';
+    position: relative;
+    right: 10px;
+    color: #514A7E;
+    font-size: 30px;
+    transform: rotate(-90deg);
+}
+
+
+.container {
+    display: none;
+
+}
+
+.active {
+    display: block;
+}
+
+.content {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    color: #7D7D7D;
+}

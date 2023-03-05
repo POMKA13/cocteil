@@ -3,13 +3,12 @@ import styles from './Registration_form.module.css'
 import close from '../../../image/Vector.png'
 import LoginToPersonalAccount from "../LoginToPersonalAccount/LoginToPersonalAccount";
 
-const Registration_form = () => {
+const Registration_form = (props) => {
 
     const [showLoginToPersonalAccount, setShowLoginToPersonalAccount] = useState(false)
 
-    const handleClick = () => {
-        setShowLoginToPersonalAccount(true)
-    }
+    const handleClickOpen = () => setShowLoginToPersonalAccount(true)
+    const handleClickClose = () => setShowLoginToPersonalAccount((false))
 
     return (
         <>
@@ -41,17 +40,17 @@ const Registration_form = () => {
                         </div>
                         <div className={styles.container2}>
                             <button className={styles.submit} type='submit'>Отправить</button>
-                            <button className={styles.entrance} onClick={handleClick}>Войти в кабинет</button>
+                            <button className={styles.entrance} onClick={handleClickOpen}>Войти в кабинет</button>
                         </div>
                         <div className={styles.container3}>
-                            <button className={styles.close}><img src={close}/></button>
+                            <button className={styles.close} onClick={props.handleClickClose}><img src={close}/></button>
                             <div className={styles.circle}></div>
                         </div>
                     </form>
                 </div>
             </div>
             {showLoginToPersonalAccount && (
-                <LoginToPersonalAccount/>
+                <LoginToPersonalAccount handleClickClose={handleClickClose}/>
             )}
         </>
 

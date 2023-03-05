@@ -1,3 +1,7 @@
+.reviews {
+    position: relative;
+}
+
 .title {
     font-size: 40px;
     font-weight: 300;

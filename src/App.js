@@ -4,14 +4,12 @@ import Search from "./components/Search/Search";
 import User from "./components/User/User";
 import Greetings from "./components/Greetings/Greetings";
 import Why from "./components/Why/Why";
-import {Routes} from "react-router-dom";
 import Stock from "./components/Stock/Stock";
 import Reviews from "./components/Reviews/Reviews";
-import ReviewForm from "./components/Reviews/ReviewForm/ReviewForm";
+import Question from "./components/Questions/Question";
 
 function App() {
     return (
-
         <div className="App">
             <div className='wrapper'>
                 <header className='header'>
@@ -27,11 +25,10 @@ function App() {
                         <div className='circle'></div>
                         <Stock />
                         <Reviews />
-                        <ReviewForm />
+                        <Question />
                     </main>
             </div>
         </div>
-
     );
 }
 

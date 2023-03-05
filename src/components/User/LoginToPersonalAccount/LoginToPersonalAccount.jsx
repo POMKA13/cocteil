@@ -3,13 +3,12 @@ import styles from './LoginToPersonalAccount.module.css'
 import go_out from '../../../image/Vector.png'
 import Registration_form from "../Registration_form/Registration_form";
 
-const LoginToPersonalAccount = () => {
+const LoginToPersonalAccount = (props) => {
 
     const [showRegistrationForm, setShowRegistrationForm] = useState(false)
 
-    const handleClick = () => {
-        setShowRegistrationForm(true)
-    }
+    const handleClickOpen = () =>  setShowRegistrationForm(true)
+    const handleClickClose = () => setShowRegistrationForm(false)
 
 
     return (
@@ -25,19 +24,17 @@ const LoginToPersonalAccount = () => {
                     <a href='#' className={styles.remind}>Не помню пароль</a>
                     <br/>
                     <button className={styles.to_come_in} type='submit' >Войти в кабинет</button>
-                    <button className={styles.registration} onClick={handleClick} type='button' >Регистрация</button>
+                    <button className={styles.registration} onClick={handleClickOpen} type='button' >Регистрация</button>
                 </div>
                 <div className={styles.container}>
-                    <button className={styles.close}><img src={go_out} alt='close'/></button>
+                    <button className={styles.close} onClick={props.handleClickClose}><img src={go_out} alt='close'/></button>
                     <div className={styles.circle}></div>
-
-
                 </div>
             </form>
 
         </div>
             {showRegistrationForm && (
-            <Registration_form />)}
+            <Registration_form handleClickClose={handleClickClose}/>)}
         </>
 
 

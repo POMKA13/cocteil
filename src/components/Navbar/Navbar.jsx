@@ -1,19 +1,14 @@
 import React, {useState} from "react";
 import styles from './Navbar.module.css'
 import logo from '../../image/logoneon.png'
+import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false)
 
-    const toggleMenuOpen = () => {
-        setIsOpen(true)
-    }
-
-    const toggleMenuClose = () => {
-        setIsOpen(false)
-    }
-
+    const toggleMenuOpen = () => setIsOpen(true)
+    const toggleMenuClose = () => setIsOpen(false)
 
     return (
         <nav>
@@ -31,15 +26,15 @@ const Navbar = () => {
                             <span className={styles.close2}></span>
                         </button>
                     </div>
-                    <a href='#'>Женщинам </a>
-                    <a href='#'>Мужчинам</a>
-                    <a href='#'>Детям</a>
-                    <a href='#'>Обувь</a>
-                    <a href='#'>Игрушки</a>
-                    <a href='#'>Аксессуары</a>
-                    <a href='#'>Большие размеры</a>
-                    <a href='#'>Дополнительно</a>
-                    <a href='#'>Акции</a>
+                    <NavLink to='#'>Женщинам </NavLink>
+                    <NavLink to='#'>Мужчинам</NavLink>
+                    <NavLink to='#'>Детям</NavLink>
+                    <NavLink to='#'>Обувь</NavLink>
+                    <NavLink to='#'>Игрушки</NavLink>
+                    <NavLink to='#'>Аксессуары</NavLink>
+                    <NavLink to='#'>Большие размеры</NavLink>
+                    <NavLink to='#'>Дополнительно</NavLink>
+                    <NavLink to='#'>Акции</NavLink>
                 </div>)}
 
         </nav>
