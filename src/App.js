@@ -1,30 +1,30 @@
-import './App.css';
-import Navbar from "./components/Navbar/Navbar";
-import Search from "./components/Search/Search";
-import User from "./components/User/User";
-import Greetings from "./components/Greetings/Greetings";
-import Why from "./components/Why/Why";
-import Stock from "./components/Stock/Stock";
-import Reviews from "./components/Reviews/Reviews";
-import Question from "./components/Questions/Question";
-import Cooperation from "./components/Cooperation/Cooperation";
-import InvitationToCooperation from "./components/InvitationToCooperation/InvitationToCooperation";
-import Footer from "./components/Footer/Footer";
+import './App.css'
+import Navbar from "./components/Navbar/Navbar"
+import Search from "./components/Search/Search"
+import User from "./components/User/User"
+import Greetings from "./components/Greetings/Greetings"
+import Why from "./components/Why/Why"
+import Stock from "./components/Stock/Stock"
+import Reviews from "./components/Reviews/Reviews"
+import Question from "./components/Questions/Question"
+import Cooperation from "./components/Cooperation/Cooperation"
+import InvitationToCooperation from "./components/InvitationToCooperation/InvitationToCooperation"
+import Footer from "./components/Footer/Footer"
 
 function App() {
     return (
         <div className="App">
             <div className='wrapper'>
                 <header className='header'>
-                    <Navbar/>
+                    <Navbar />
                     <div className='searchContainer'>
-                        <Search/>
-                        <User/>
+                        <Search />
+                        <User />
                     </div>
                 </header>
                     <main>
-                        <Greetings/>
-                        <Why/>
+                        <Greetings />
+                        <Why />
                         <div className='circle'></div>
                         <Stock />
                         <Reviews />
@@ -39,7 +39,7 @@ function App() {
                 </div>
             </footer>
         </div>
-    );
+    )
 }
 
-export default App;
+export default App

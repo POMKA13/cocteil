@@ -1,5 +1,5 @@
-import React from "react";
-import Accordion from "./Accordion/Accordion";
+import React from "react"
+import Accordion from "./Accordion/Accordion"
 import styles from './Questions.module.css'
 
 const items = [
