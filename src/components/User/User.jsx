@@ -12,9 +12,9 @@ const User = () => {
     const handleClickClose = () => setShowLoginForm(false)
     return (
         <div className={styles.container}>
-            <button className={styles.button} type='button' onClick={handleClickOpen}><img src={user}/></button>
-            <button className={styles.button} type='button'><img src={heart}/></button>
-            <button className={styles.button} type='button'><img src={shopping}/></button>
+            <button className={styles.button} type='button' onClick={handleClickOpen}><img src={user} alt=''/></button>
+            <button className={styles.button} type='button'><img src={heart} alt=''/></button>
+            <button className={styles.button} type='button'><img src={shopping} alt=''/></button>
             {showLoginForm && (
                 <LoginToPersonalAccount handleClickClose={handleClickClose}/>
             )}
