@@ -1,0 +1,81 @@
+.logIn {
+    width: 211px;
+    height: 239px;
+    background-color: #FFFDF5;
+    border: 1px solid black;
+}
+
+.logIn_header {
+    border-bottom: 1px solid #7D7D7D;
+}
+
+.user {
+    width: 39px;
+    height: 39px;
+    margin: 18px auto 15px;
+    border-radius: 50%;
+    background-color: #7D7D7D;
+}
+
+.btn {
+    display: block;
+    width: 109px;
+    height: 26px;
+    margin: 0 auto 24px;
+    background-color: #514A7E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #FFFDF5;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.basket img {
+    margin-left: 26.22px;
+    margin-right: 13.22px;
+}
+
+.basket a {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #121212;
+}
+
+.logIn_footer {
+    padding-top: 15px;
+    padding-left: 24px;
+}
+
+.favorites {
+    display: flex;
+    align-items: center;
+}
+
+.favorites a {
+    margin-left: 11px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #121212;
+}
+
+.viewed {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.viewed a {
+    margin-left: 9px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #121212;
+
+}

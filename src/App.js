@@ -10,6 +10,7 @@ import Question from "./components/Questions/Question"
 import Cooperation from "./components/Cooperation/Cooperation"
 import InvitationToCooperation from "./components/InvitationToCooperation/InvitationToCooperation"
 import Footer from "./components/Footer/Footer"
+import LogIn from "./components/logIn/logIn";
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                     <Footer />
                 </div>
             </footer>
+            <LogIn />
         </div>
     )
 }
