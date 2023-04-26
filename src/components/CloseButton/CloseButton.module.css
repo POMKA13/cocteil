@@ -1,0 +1,25 @@
+.buttonContainer {
+    width: 47px;
+    height: 47px;
+    padding-top: 18px;
+    padding-left: 18px;
+    background-color: #514A7E;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.buttonContainer:hover {
+    width: 56px;
+    height: 56px;
+}
+
+
+/*.closeButton {*/
+/*    */
+/*}*/
+
+/*.closeButton:hover svg, path{*/
+/*    width: 56px;*/
+/*    height: 56px;*/
+/*    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));*/
+/*}*/
