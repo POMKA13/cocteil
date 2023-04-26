@@ -1,19 +1,21 @@
 .UserLogIn {
     width: 211px;
-    height: 381px;
+    /*height: 381px;*/
     margin: 0 auto;
-    border: 1px solid black;
+    padding-top: 18px;
+    box-shadow: 1px 4px 20px rgba(51, 51, 51, 0.5);
 }
 
 .user {
     width: 39px;
     height: 39px;
-    margin: 18px auto 6px;
+    margin: 0px auto 6px;
     background-color: #C4C4C4;
     border-radius: 50%;
 }
 
 .userName {
+    margin-bottom: 15px;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -21,5 +23,85 @@
 }
 
 .content {
-    padding-left: 24px;
+}
+
+.container {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #7D7D7D;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title:first-child {
+    margin-top: 15px;
+}
+.title:last-child {
+    border-top: 1px solid #7D7D7D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.border {
+    border-top: 1px solid #7D7D7D;
+}
+.titleBasket {
+    margin-left: 26.22px;
+    margin-right: 13.22px;
+}
+
+.titleFavorites {
+    margin-left: 25.11px;
+    margin-right: 12.11px;
+}
+
+.titleViewed {
+    margin-left: 23.96px;
+    margin-right: 10.22px;
+}
+
+.titleBonuses {
+    margin-left: 24.22px;
+    margin-right: 11px;
+}
+
+.titlePersonalData {
+    margin-left: 24.22px;
+    margin-right: 11.22px;
+}
+
+.titlePurchaseHistory {
+    margin-left: 28.22px;
+    margin-right: 12.22px;
+}
+
+.titleGoOut {
+    margin-left: 26.22px;
+    margin-right: 9.22px;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #121212;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-left: 12px;
+    width: 22px;
+    height: 22px;
+    background-color: #514A7E;
+    color: #FFFDF5;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    border-radius: 50%;
+    text-align: center;
 }
